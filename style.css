@@ -6,8 +6,10 @@ Selector {
 body {
     background-color: #141516;
     color: white;
+    font-family: sans-serif;
 }
 
 h1 {
     font-family: Titan One, sans-serif;
+    text-align: center;
 }
