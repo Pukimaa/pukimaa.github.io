@@ -4,12 +4,31 @@
     <title>About Pukima</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+          background-color: white;
+          color: black;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+    </style>
 </head>
 <body>
 <!--webbaricon-->
 <link rel = "icon" href = "https://pukimaa.github.io/Logo.png" type = "image/x-icon">   
     <!--"Heading"-->
-    <img src="/about/about.png" height="auto" width="100%">
+    <img src="/about/about.png" height="auto" width="100%"><br>
+    <button onclick="myFunction()">Toggle dark mode</button>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
 
 
 </body>

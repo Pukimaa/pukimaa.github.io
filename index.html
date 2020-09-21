@@ -4,6 +4,17 @@
     <title>Pukima's personal website</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+          background-color: white;
+          color: black;
+        }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        </style>
 </head>
 <body>
 <link rel = "icon" href = "https://pukimaa.github.io/Logo.png" type = "image/x-icon"> 
@@ -12,8 +23,15 @@
     <!--About me on home-->
     <img src="Logo.png" alt="Logo" height="150" width="150">
     <p>Hi, I'm Pukima (usally called Jaron in Realife) and I live in northern Germany and making cool stuff for you and your friends.</p> <br>
-    <p>And I developed this Site completly myself with HTML and CSS. You can also find the <a href= "github.com/Pukimaa/pukimaa.github.io"">source code on Github</a> and feel free to use it as long as you follow the rules of the <a href= "LICENSE.html">License</a>.</p>
+    <p>And I developed this Site completly myself with HTML and CSS. You can also find the <a href= "github.com/Pukimaa/pukimaa.github.io"">source code on Github</a> and feel free to use it as long as you follow the rules of the <a href= "LICENSE.html">License</a>.</p><br>
+    <button onclick="myFunction()">Toggle dark mode</button>
 
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
 
 
 </body>
