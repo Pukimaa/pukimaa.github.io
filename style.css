@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    background-color: #141516;
+    color: white;
 }
 
 h1 {
@@ -7,12 +9,18 @@ h1 {
     text-align: center;
 }
 
-body {
-    background-color: black;
-    color: white;
-}
+.about-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #d55e95;
+    border: 2px solid #d55e95;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s linear;
+    text-decoration: none;
+  }
   
-.light-mode {
-    background-color: white;
-    color: black;
-}
+  .about-btn:hover{
+    background: #d55e95;
+    color: #f2f2f2;
+  }

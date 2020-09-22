@@ -23,7 +23,7 @@ body{
 }
 
 .card-header{
-  background: #2c3a47;
+  background: #141516;
   padding: 60px 40px;
 }
 
@@ -117,7 +117,7 @@ body{
 
 .item span{
   display: block;
-  color: #2c3a47;
+  color: #141516;
   font-size: 30px;
 }
 
