@@ -146,12 +146,3 @@ h1 {
       right: 0;
     }
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-.note {
-  width: 100%;
-  overflow: hidden;
-  background: #313131;
-  margin-top: 0px;
-  font-size: 15px;
-}
