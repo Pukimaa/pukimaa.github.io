@@ -9,7 +9,7 @@ html,body{
     width: 100%;
     height: 100%;
     margin: auto;
-    background: url(bg.png) no-repeat 50% 50%;
+    background: url(https://source.unsplash.com/random) no-repeat 50% 50%;
     top: 0;
     display: table;
     background-size: cover;
@@ -22,7 +22,7 @@ html,body{
   }
   .content{
     max-width: 500px;
-    margin: auto;
+    margin-left: 50%;
     text-align: center;
   }
   .content h1{
@@ -31,6 +31,13 @@ html,body{
     font-size: 500%;
     text-shadow: 0 0 300px #000;
   }
+
+  .information{
+    margin-right: 35px;
+    margin-top: 987px;
+    white-space: nowrap;
+  }
+
   .content .btn{
     border-radius: 9px;
     color: #f9f3f4;
