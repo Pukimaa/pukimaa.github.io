@@ -23,7 +23,7 @@ html,body{
   }
   .content{
     max-width: 500px;
-    margin-left: 35%;
+    margin: auto;
     height: auto;
     text-align: center;
   }
