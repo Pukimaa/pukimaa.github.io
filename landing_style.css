@@ -4,7 +4,42 @@ html,body{
     width: 100%;
     height: 100%;
     color: white;
+    background: #141516;
+    scroll-behavior: smooth;
   }
+
+  .about{
+    height: 100%;
+  }
+
+  #top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    color: #fff;
+    border: 3px solid #fff;
+    background: rgba(255,255,255,.1);
+    border-radius: 50%;
+    font-size: 22px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    transition: background-color 250ms linear, color 250ms linear;
+  }
+
+  #top-btn:hover {
+    background: #fff;
+    color: #000;
+  }
+
   .b1{
     width: 100%;
     height: 100%;
@@ -91,4 +126,22 @@ html,body{
       visibility: hidden;
   }
 }
-  
+
+.about-btn{
+  display: inline-block;
+  padding: 12px 50px;
+  color: #d55e95;
+  border: 2px solid #d55e95;
+  border-radius: 6px;
+  margin-top: 16px;
+  transition: .3s linear;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.about-btn:hover{
+  background: #d55e95;
+  color: #f2f2f2;
+}  
