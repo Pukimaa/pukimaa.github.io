@@ -65,7 +65,8 @@ html,body{
     text-align: center;
   }
   .content h1{
-    font-family: 'Century Gothic',sans-serif;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
     color: #f9f3f4;
     font-size: 500%;
     text-shadow: 0 0 300px #000;
