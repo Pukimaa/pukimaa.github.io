@@ -1,3 +1,49 @@
+<!DOCTYPE html>
 <head>
-    <meta http-equiv = "refresh" content = "0; url = https://zeno.fm/pukima-radio" />
+    <title>Pukima Radio</title>
+    <script src="loading.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel = "icon" href = "Logo.png" type = "image/x-icon"> 
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+<body>
+<!--Loading Screen-->
+<div class="loader">
+    <img src="loading.gif" alt="Loading..." />
+</div>
+
+<!--Menu-->
+<div class="header">
+    <a href="https://pukimaa.github.io/site"><img src="Logo.png" alt="Logo" class="logo" height="80%" width="auto" style="margin-top: 10px;"></a>
+      <input type="checkbox" id="chk">
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+      </label>
+  
+      <ul class="menu">
+        <a href="https://pukimaa.github.io">Home</a>
+        <a href="https://pukimaa.github.io/about/about">About</a>
+        <a href="https://pukimaa.github.io/LICENSE.html">License</a>
+        <a href="https://pukimaa.github.io/contact" target="_blank">Contact</a>
+        <a href="https://pukimaa.github.io/quili">quili</a>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+
+
+<div style="margin-left: 10px;">   
+    <h1>Pukima Radio</h1>
+        <h3>Standard Audio Player:</h3>
+            <audio controls>
+                <source src="http://stream.zeno.fm/vhxnra4c9f0uv" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        
+        <h3 style="margin-top: 10px;">External Website:</h3>
+            <p><a src="https://zeno.fm/pukima-radio">zeno.fm/pukima-radio</a></p>
+</div>
+
+</body>
