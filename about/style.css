@@ -1,136 +1,45 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: "Ubuntu", sans-serif;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
 body{
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   background: url(bg.png) no-repeat center;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
-
-.profile-card{
-  width: 400px;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
   text-align: center;
-  border-radius: 8px;
-  overflow: hidden;
+  margin-top: 100px;
+  height: 375px;
 }
 
-.card-header{
-  background: #141516;
-  padding: 60px 40px;
+.title {
+  color: black;
+  font-size: 18px;
 }
 
-.pic{
+button {
+  border: none;
+  outline: 0;
   display: inline-block;
   padding: 8px;
-  background: linear-gradient(130deg, #02c9fe, #d55e95);
-  margin: auto;
-  border-radius: 50%;
-  background-size: 200% 200%;
-  animation: animated-gradient 2s linear infinite;
-}
-
-@keyframes animated-gradient{
-  25%{
-    background-position: left bottom;
-  }
-  50%{
-    background-position: right bottom;
-  }
-  75%{
-    background-position: right top;
-  }
-  100%{
-    background-position: left top;
-  }
-}
-
-.pic img{
-  display: block;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.name{
-  color: #f2f2f2;
-  font-size: 28px;
-  font-weight: 600;
-  margin: 10px 0;
-}
-
-.desc{
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
   font-size: 18px;
-  color: #d55e95;
 }
 
-.sm{
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.sm a{
-  color: #f2f2f2;
-  width: 56px;
+a {
+  text-decoration: none;
   font-size: 22px;
-  transition: .3s linear;
+  color: black;
 }
 
-.sm a:hover{
-  color: #d55e95;
+button:hover, a:hover {
+  opacity: 0.7;
 }
 
-.contact-btn{
-  display: inline-block;
-  padding: 12px 50px;
-  color: #d55e95;
-  border: 2px solid #d55e95;
-  border-radius: 6px;
-  margin-top: 16px;
-  transition: .3s linear;
-}
-
-.contact-btn:hover{
-  background: #d55e95;
-  color: #f2f2f2;
-}
-
-.numbers{
-  display: flex;
-  align-items: center;
-}
-
-.item{
-  flex: 1;
-  text-transform: uppercase;
-  font-size: 11px;
-  color: #d55e95;
-}
-
-.item span{
-  display: block;
-  color: #141516;
-  font-size: 30px;
-}
-
-.border{
-  width: 1px;
-  height: 30px;
-  background: #bbb;
-}
-
-.card-footer{
-  background: #f4f4f4;
-  padding: 60px 10px;
-}
 
 .loader {
   position: fixed;
