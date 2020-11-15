@@ -7,7 +7,7 @@
     <link rel = "icon" href = "Logo.png" type = "image/x-icon"> 
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body style="background-color: #101112;"    >
 <!--Loading Screen-->
 <div class="loader">
     <img src="loading.gif" alt="Loading..." />
@@ -16,17 +16,31 @@
 <!--Menu-->
 <iframe src="https://pukimaa.github.io/menu.html" height="100px" width="100%" style="border: none;"></iframe>
 
+  
+<h1>Pukima Radio</h1>
+<div style="margin-left: 10px; background: url(bg.png); background-repeat: no-repeat; height: 100%;" class="row">
+    <div class="column">
+        <h2>Listen to the radio:</h2>      
+        <div style="margin-left: 10px;">
+            <h3 style="margin-top: 10px;">Standard Audio Player:</h3>
+                <audio controls>
+                    <source src="http://stream.zeno.fm/vhxnra4c9f0uv" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            
+            <h3 style="margin-top: 10px;">External Website:</h3>
+                <p><a href="https://zeno.fm/pukima-radio">zeno.fm/pukima-radio</a></p>
 
-<div style="margin-left: 10px;">   
-    <h1>Pukima Radio</h1>
-        <h3>Standard Audio Player:</h3>
-            <audio controls>
-                <source src="http://stream.zeno.fm/vhxnra4c9f0uv" type="audio/mpeg">
-                Your browser does not support the audio tag.
-            </audio>
-        
-        <h3 style="margin-top: 10px;">External Website:</h3>
-            <p><a href="https://zeno.fm/pukima-radio">zeno.fm/pukima-radio</a></p>
+            <h3 style="margin-top: 10px;">Widget:</h3>
+            <iframe src="https://www.zeno.fm/player/pukima-radio" width="575" height="125" frameborder="0" scrolling="no"></iframe><a href="https://www.zeno.fm" target="_blank" style="display: block; font-size: 0.9em; line-height: 10px;"></a>
+        </div>
+    </div>
+
+    <div class="column">
+        <h2>Description:</h2>
+            <p>Pukima Radio is an free webradio for everyone. In the song list are songs from every kind of music. <a href="contact.html">Contact me</a>
+            if you want your favorite music added to the song list.</p>
+    </div>
 </div>
 
 </body>

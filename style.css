@@ -146,3 +146,26 @@ h1 {
       right: 0;
     }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 49%;
+  padding: 10px;
+  height: 640px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
