@@ -169,3 +169,16 @@ h1 {
     width: 100%;
   }
 }
+
+p.sticky {
+  z-index:1000;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-family: sans-serif; 
+  text-align: center;
+  background-color: #101112;
+  padding: 20px;
+  border-radius: 0px 0px 25px 25px;
+}
