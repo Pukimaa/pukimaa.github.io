@@ -46,7 +46,7 @@ html,body{
     height: -webkit-calc(100% - 100px); /* google, safari */
     height: -moz-calc(100% - 100px); /* firefox */
     margin: auto;
-    background: url(bg.png) no-repeat 50% 50%;
+    background: url(https://source.unsplash.com/user/pukima) no-repeat 50% 50%;
     top: 0;
     display: table;
     background-size: cover;
@@ -61,8 +61,9 @@ html,body{
   .content{
     max-width: 500px;
     margin: auto;
-    height: auto;
+    height: 150px;
     text-align: center;
+    background: #10111270;
   }
   .content h1{
     font-family: Roboto, sans-serif;
