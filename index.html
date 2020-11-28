@@ -12,8 +12,19 @@
     <script src="loading.js"></script>
     <script src="scrolltop.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-    <meta http-equiv="Cache-Control" content="no-store" />
+    <!-- Start of Woopra Code -->
+    <script>
+      (function(){
+        var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+      })("woopra");
 
+      woopra.config({
+          domain: 'pukimaa.github.io'
+      });
+      woopra.track();
+    </script>
+    <!-- End of Woopra Code -->
+    
     <!--webbar icon-->
     <link rel = "icon" href = "Logo.png" type = "image/x-icon"> 
 </head>
@@ -40,6 +51,19 @@
 </div>
 
 <a href="#top" id="top-btn"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+<script type="text/javascript">
+  window.doorbellOptions = {
+      "id": "12099",
+      "appKey": "kqjyNp02emdPmB74elKDuphxKOrWhsp5hhZckW9PJFmdPMajTgUKD9M8KQx6vDli"
+  };
+  (function(w, d, t) {
+      var hasLoaded = false;
+      function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
+      if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
+      if (d.readyState == 'complete') { l(); }
+  }(window, document, 'script'));
+</script>
 
 <!--Loading Screen-->
 <div class="loader">
