@@ -33,6 +33,14 @@
             animation-iteration-count: infinite;
             animation-direction: alternate;
         }
+
+        .ship {
+            animation-name: ship;
+            animation-duration: 10s;
+            animation-delay: 40s;
+            animation-fill-mode: forwards;
+            animation-direction: alternate;
+        }
         
         @keyframes example {
         0%   {left:0px; bottom: 0%;}
@@ -40,8 +48,14 @@
         }
 
         @keyframes button {
-        0% {background: #EB6EA0;}
-        100% {background: #c24879;} 
+        0% {background: #FEC9AA;}
+        100% {background: #EB6EA0;} 
+        }
+
+        @keyframes ship {
+            0% {opacity: 0;}
+            75% {opacity: 100;}
+            100% {right: 175px;}
         }
         </style>
 </head>
@@ -53,7 +67,8 @@
 
         <h1>Pukima's Discord Server</h1>
         <embed src="7b01f72a2054561145b6dd04add417c0.svg" style="margin-top: 218.79998959px; margin-left: 10px; position: absolute;"></embed>
-        <a href="https://discord.gg/9YDAm3qTae"><button style="padding: 50px; margin-top: 75px; margin-left: 10px; background: #EB6EA0; border: none;">Join the Server</button></a>
+        <a href="https://discord.gg/9YDAm3qTae"><button style="margin-left: 1335px; background: #EB6EA0; border: none; width: 200px; height: 100%; font-family: roboto, sans-serif; font-size: 52px">Join the Server</button></a>
 
         <embed src="9c0629769616f9629689a0e68a2e57b7.svg" style="width: 125px; height: auto; bottom: 0px; position: absolute; margin-left: 1000px;" class="wumpus"></embed>
+        <embed src="31fde13d3508b8ddb01cf817ad09c690.svg" style="width: 50px; height: auto; position: absolute; right: 0px; top: 2px; opacity: 0;" class="ship"></embed>
 </body>
