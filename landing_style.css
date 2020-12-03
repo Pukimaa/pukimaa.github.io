@@ -1,14 +1,11 @@
-html,body{
+html,body :not(.doorbell){
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
+    color: white;
     background: #141516;
     scroll-behavior: smooth;
-  }
-
-  h1, p, a {
-    color: white;
   }
 
   .about{
