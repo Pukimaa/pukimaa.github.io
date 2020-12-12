@@ -72,13 +72,13 @@ body {
     box-shadow: 0 3px 12px rgba(20, 21, 22, .9);
 }
 .one {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TBBT_logo.svg/500px-TBBT_logo.svg.png);
+    background-image: url(Marvel_Logo.png);
 }
 .two {
     background-image: url(https://i.ebayimg.com/images/g/-EAAAOSw-3FZDk62/s-l400.jpg);
 }
 .three {
-    background-image: url(https://portal.dnb.de/opac/mvb/cover.htm?isbn=978-3-7432-0049-4&size=l);
+    background-image: url(Erebos_2.png);
 }
 
 .title h1 {
