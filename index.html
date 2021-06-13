@@ -1,80 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Pukima's personal website</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <link href="landing_style.css" rel="stylesheet" type="text/css">
-    <link rel="me" href="https://pukima.site/@pukima">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script src="loading.js"></script>
-    <script src="scrolltop.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-    <!--webbar icon-->
-    <link rel = "icon" href = "favicon.ico" type = "image/x-icon"> 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pukima's Personal Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<!--Menu-->
-<div id="text-start" class="header" style="background-color: #141516;">
-  <a href="https://pukimaa.github.io"><img src="Logo_small.png" alt="Logo" class="logo" height="80%" width="auto" style="margin-top: 10px;"></a>
-  <input type="checkbox" id="chk">
-  <label for="chk" class="show-menu-btn">
-    <i class="fas fa-ellipsis-h"></i>
-  </label>
-
-  <ul class="menu">
-    <a href="https://pukimaa.github.io" target="_parent">Home</a>
-    <a href="https://pukimaa.github.io/about" target="_parent">About</a>
-    <a href="https://pukimaa.github.io/LICENSE.html" target="_parent">License</a>
-    <a href="https://pukimaa.github.io/contact" target="_blank">Contact</a>
-    <a href="https://pukimaa.github.io/quili" target="_parent">quili</a>
-    <a href="https://pukimaa.github.io/radio" target="_parent">Radio</a>
-    <a href="https://pukimaa.github.io/discord" target="_blank">Discord Server</a>
-    <label for="chk" class="hide-menu-btn">
-      <i class="fas fa-times"></i>
-    </label>
-  </ul>
-</div>
-
-   <!--Fullscreen Landing-->
-   <section class="b1" name="top">
-    <div class="in1">
-      <div class="content">
-        <h1>Pukima</h1>
-  <a class="btn" href="#start">GET STARTED</a>
-      </div>
+  <div id="page">
+    <div id="content">
+      <h1>PUKIMA</h1>
+      <p>This Site is currently in a rework.</p>
+      <p>Contact me:<br> <a href="mailto:pukima@pukima.site">E-Mail</a>, <a href="https://dsc.bio/pukima">Discord</a>, <a href="https://matrix.to/#/@pukimaa:matrix.org">Matrix</a></p>
+    </div>
   </div>
-  </section>
-
-  <!--About me on home-->
-<div class="about" style="height: 100%;">
-  <h1 style="text-align: center; margin-top: 10px; font-family: Titan One, sans-serif; letter-spacing: 1.5px;" id="start">Pukima's website</h1>
-    <p style="margin-top: 15px;">Hi, I'm Pukima (usually called Jaron in real life) and I live in Northern Germany. I'm making cool stuff for you and your friends like a <a href="https://pukimaa.github.io/radio">Radiostation</a>.</p>
-    <p>And I developed this Site completely by myself with HTML and CSS. You can also find the <a href= "https://www.github.com/Pukimaa/pukimaa.github.io" target="_blank">source code on Github</a> and feel free to use it as long as you follow the rules of the <a href= "LICENSE.html">License</a>.</p><br>
-    <a href="https://pukimaa.github.io/about" class="about-btn">More About me</a>
-</div>
-
-<a href="#top" id="top-btn"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-
-<script type="text/javascript" style="color:black; border-radius:4px;border:1px solid white;" id="doorbell-button">
-  window.doorbellOptions = {
-      "id": "12099",
-      "appKey": "kqjyNp02emdPmB74elKDuphxKOrWhsp5hhZckW9PJFmdPMajTgUKD9M8KQx6vDli"
-  };
-  (function(w, d, t) {
-      var hasLoaded = false;
-      function l() { if (hasLoaded) { return; } hasLoaded = true; window.doorbellOptions.windowLoaded = true; var g = d.createElement(t);g.id = 'doorbellScript';g.type = 'text/javascript';g.async = true;g.src = 'https://embed.doorbell.io/button/'+window.doorbellOptions['id']+'?t='+(new Date().getTime());(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(g); }
-      if (w.attachEvent) { w.attachEvent('onload', l); } else if (w.addEventListener) { w.addEventListener('load', l, false); } else { l(); }
-      if (d.readyState == 'complete') { l(); }
-  }(window, document, 'script'));
-</script>
-
-<!--Loading Screen-->
-<div class="loader">
-    <img src="loading.gif" alt="Loading..." />
-</div>
 </body>
 </html>
